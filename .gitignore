@@ -1,0 +1,24 @@
+# General binary
+*.o
+*.tgz
+*.swp
+
+*.class
+# Coverage related
+*.gcda
+*.gcno
+lcov-report/
+lcov.info
+lcov.info.tmp
+
+# Maven project.  NOTE: please do not put target/ here, it is not safe for non
+# maven projects, put into maven project's own .gitignore instead.
+#
+.classpath
+.project
+*.class
+.settings/
+
+# Intellij IDEA
+*.iml
+.idea/
